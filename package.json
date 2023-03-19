@@ -15,11 +15,14 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.25.3",
+    "node-vibrant": "3.1.6",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
-    "vuetify": "^2.6.10"
+    "vue-toastification": "^1.7.14",
+    "vuetify": "^2.6.10",
+    "worker-loader": "^3.0.8"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
@@ -30,6 +33,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.5.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "webpack": "^5.76.2"
   }
 }

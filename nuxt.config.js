@@ -44,6 +44,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'vue-toastification/nuxt',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,12 +53,43 @@ export default {
     baseURL: '/',
   },
 
+  toast: {
+    transition: 'Vue-Toastification__fade',
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
       themes: {
+        light: {
+          primary: colors.blue.darken2,
+          accent: colors.grey.darken3,
+          secondary: colors.amber.darken3,
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: colors.deepOrange.accent4,
+          success: colors.green.accent3,
+          bug: '#91BD2B',
+          dark: '#595761',
+          dragon: '#0D69C7',
+          electric: '#F2D94F',
+          fairy: '#FAA64D',
+          fighting: '#ED8FE6',
+          fire: '#D4425E',
+          flying: '#A1BAED',
+          ghost: '#5E6EBD',
+          grass: '#5EBD59',
+          ground: '#D97D4D',
+          ice: '#75D1C2',
+          normal: '#A1A39E',
+          poison: '#B863CF',
+          psychic: '#FA8582',
+          rock: '#C9BA8A',
+          steel: '#5794A3',
+          water: '#549EDE',
+        },
         dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,
@@ -66,6 +98,24 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
+          bug: '#91BD2B',
+          dark: '#595761',
+          dragon: '#0D69C7',
+          electric: '#F2D94F',
+          fairy: '#FAA64D',
+          fighting: '#ED8FE6',
+          fire: '#D4425E',
+          flying: '#A1BAED',
+          ghost: '#5E6EBD',
+          grass: '#5EBD59',
+          ground: '#D97D4D',
+          ice: '#75D1C2',
+          normal: '#A1A39E',
+          poison: '#B863CF',
+          psychic: '#FA8582',
+          rock: '#C9BA8A',
+          steel: '#5794A3',
+          water: '#549EDE',
         },
       },
     },

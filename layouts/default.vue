@@ -1,13 +1,11 @@
 <template>
   <v-app dark>
-    <v-app-bar fixed app>
+    <!-- <v-app-bar fixed app>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-spacer />
-    </v-app-bar>
+    </v-app-bar> -->
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <Nuxt />
     </v-main>
   </v-app>
 </template>
