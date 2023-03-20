@@ -279,6 +279,9 @@ export default {
 </style>
 
 <style>
+html {
+  overflow-y: auto;
+}
 .v-pagination__item,
 .v-pagination__navigation,
 .v-pagination__more {
