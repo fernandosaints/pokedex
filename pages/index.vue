@@ -43,7 +43,7 @@
       <v-container>
         <v-row class="ma-auto">
           <v-card class="pa-2" :color="type1" width="64" height="64">
-            <v-img :src="'/icons/' + type1 + '.svg'"></v-img>
+            <v-img :src="'./icons/' + type1 + '.svg'"></v-img>
           </v-card>
           <v-card
             v-if="type2 != ''"
@@ -52,7 +52,7 @@
             width="64"
             height="64"
           >
-            <v-img :src="'/icons/' + type2 + '.svg'" lazy-src=""></v-img>
+            <v-img :src="'./icons/' + type2 + '.svg'" lazy-src=""></v-img>
           </v-card>
         </v-row>
         <h3 class="poke-stats-title my-4">Base stats:</h3>
