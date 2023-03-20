@@ -9,7 +9,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - pokedex',
+    titleTemplate: 'Pokédex',
     title: 'pokedex',
     htmlAttrs: {
       lang: 'en',
@@ -20,7 +20,13 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap'
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -75,8 +81,8 @@ export default {
           dark: '#595761',
           dragon: '#0D69C7',
           electric: '#F2D94F',
-          fairy: '#FAA64D',
-          fighting: '#ED8FE6',
+          fairy: '#ED8FE6',
+          fighting: '#FAA64D',
           fire: '#D4425E',
           flying: '#A1BAED',
           ghost: '#5E6EBD',
@@ -102,8 +108,8 @@ export default {
           dark: '#595761',
           dragon: '#0D69C7',
           electric: '#F2D94F',
-          fairy: '#FAA64D',
-          fighting: '#ED8FE6',
+          fairy: '#ED8FE6',
+          fighting: '#FAA64D',
           fire: '#D4425E',
           flying: '#A1BAED',
           ghost: '#5E6EBD',
